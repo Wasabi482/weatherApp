@@ -3,7 +3,7 @@
   const iconMap = {
   Rain: 'images/rain.png',
   Clear: 'images/sunny.png',
-  Clouds: 'images/cloud .png',
+  Clouds: 'images/cloud.png',
   Thunderstorm: 'images/thunderstorm.png',
   };
 
