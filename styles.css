@@ -1,0 +1,64 @@
+*{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+}
+body{
+  background-color: #212529;
+  color: white;
+}
+.main{
+  text-align:center;
+ 
+}
+
+.weatherSection{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  background-color: white;
+}
+
+.detailsSection{
+  margin: 0px 10px 10px 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: 	#495057;
+  justify-items: center;
+}
+
+.detailsSection .details{
+  justify-content: space-evenly;
+  color: white;
+  text-align: center;
+  width: 300px;
+  height: 400px;
+}
+
+.details th, td{
+  border-bottom: solid .5px white;
+  
+}
+
+.details tr{
+  border: solid black;
+}
+
+.temp{
+  font-size: 100px;
+  font-weight: 400;
+  margin: 0px;
+  letter-spacing: -1px;
+}
+
+.weatherIcon{
+  width: 150px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.description{
+  margin-bottom: -25px;
+  padding: none;
+  margin-top: 50px;
+}
