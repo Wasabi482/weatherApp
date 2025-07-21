@@ -3,7 +3,7 @@
 
 }
 body{
-  background-color: #212529;
+  background-color: white;
   color: white;
 }
 .main{
@@ -15,24 +15,24 @@ body{
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.5);
   color: black;
-  background-color: white;
 }
 
 .detailsSection{
   margin: 0px 10px 10px 10px;
   padding: 10px;
   border-radius: 10px;
-  background-color: 	#495057;
+  background-color: hsla(0, 0%, 100%, 0.5);
   justify-items: center;
 }
 
 .detailsSection .details{
   justify-content: space-evenly;
-  color: white;
   text-align: center;
   width: 300px;
   height: 400px;
+  color:black;
 }
 
 .details th, td{
@@ -60,4 +60,15 @@ body{
 .description{
   padding: none;
   margin-top: 50px;
+}
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
+  pointer-events: none; /* allows clicks through video */
 }
